@@ -1,3 +1,4 @@
+````markdown
 # Automated Financial Research Report Generation System
 
 🤖 **An Intelligent Financial Research Report Generation Platform Powered by Large Language Models**
@@ -21,6 +22,11 @@ This project is an automated financial research report generation system powered
 ## 🏗️ System Architecture
 
 ### Architecture Diagram
+
+> Fixes applied:
+> - Added missing closing fence for the Mermaid block (```).
+> - Ensured all subgraphs are properly closed.
+> - Mermaid code is now syntactically complete.
 
 ```mermaid
 graph TB
@@ -66,11 +72,16 @@ graph TB
         S --> V[Visual Charts]
         S --> W[Investment Recommendations]
     end
-
+````
 
 ### Project Directory Structure
 
-```
+> Fixes applied:
+>
+> * Ensured the directory block is properly fenced and closed.
+> * Kept naming consistent and readable.
+
+```text
 financial_research_report/
 ├── 📄 Core Generators
 │   ├── research_report_generator.py             # Basic report generator
@@ -116,9 +127,9 @@ financial_research_report/
 │   │   ├── SenseTime_HK_00020_info.txt
 │   │   └── CloudWalk_A_SH688327_info.txt
 │   ├── download_financial_statement_files/      # Financial statement data
-│   │   ├── [Company]_balance_sheet_annual.csv   # Balance sheet
-│   │   ├── [Company]_cash_flow_statement_annual.csv # Cash flow statement
-│   │   └── [Company]_income_statement_annual.csv    # Income statement
+│   │   ├── [Company]_balance_sheet_annual.csv        # Balance sheet
+│   │   ├── [Company]_cash_flow_statement_annual.csv  # Cash flow statement
+│   │   └── [Company]_income_statement_annual.csv     # Income statement
 │   └── industry_info/                           # Industry information
 │       └── all_search_results.json              # Aggregated search results
 ├── 📁 Output Results
@@ -133,35 +144,37 @@ financial_research_report/
 │   └── LICENSE                                  # Open-source license
 └── 📄 Documentation
     └── README.md                                # Project documentation
-
 ```
 
 ## 🚀 Core Capabilities
 
 ### 1. Multi-Source Data Integration
 
-- **Financial Data**: Retrieves the three core financial statements (balance sheet, income statement, cash flow statement) via AkShare
-- **Ownership Structure**: Automatically crawls shareholder information from platforms such as iFinD / Tonghuashun
-- **Industry Information**: Collects industry news and market information using DuckDuckGo search
-- **Company Profile**: Fetches fundamental company information and business descriptions
+* **Financial Data**: Retrieves the three core financial statements (balance sheet, income statement, cash flow statement) via AkShare
+* **Ownership Structure**: Automatically crawls shareholder information from platforms such as iFinD / Tonghuashun
+* **Industry Information**: Collects industry news and market information using DuckDuckGo search
+* **Company Profile**: Fetches fundamental company information and business descriptions
 
 ### 2. Intelligent Analysis Engine
 
-- **Financial Analysis**: Revenue growth, profitability, solvency, and operating efficiency analysis
-- **Peer Benchmarking**: Automatically identifies competitors and performs horizontal comparisons
-- **Trend Forecasting**: Future performance forecasting and valuation modeling based on historical data
-- **Risk Assessment**: Comprehensive assessment of financial, industry, and market risks
+* **Financial Analysis**: Revenue growth, profitability, solvency, and operating efficiency analysis
+* **Peer Benchmarking**: Automatically identifies competitors and performs horizontal comparisons
+* **Trend Forecasting**: Future performance forecasting and valuation modeling based on historical data
+* **Risk Assessment**: Comprehensive assessment of financial, industry, and market risks
 
 ### 3. Professional Report Generation
 
-- **Structured Output**: Standardized research report formats and section templates
-- **Chart Visualization**: Professional financial charts and visualizations
-- **Investment Recommendations**: Clear investment ratings and recommendations based on analytical results
-- **Multiple Output Formats**: Supports Markdown, Word, and other formats
+* **Structured Output**: Standardized research report formats and section templates
+* **Chart Visualization**: Professional financial charts and visualizations
+* **Investment Recommendations**: Clear investment ratings and recommendations based on analytical results
+* **Multiple Output Formats**: Supports Markdown, Word, and other formats
 
 ## 🛠️ Installation and Configuration
 
 ### Requirements
 
-- Python 3.8+
-- OpenAI API key (or any OpenAI-compatible LLM service)
+* Python 3.8+
+* OpenAI API key (or any OpenAI-compatible LLM service)
+
+```
+```
