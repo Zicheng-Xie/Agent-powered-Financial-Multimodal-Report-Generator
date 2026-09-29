@@ -54,3 +54,8 @@ ipython>=7.0.0
 # pytest>=6.0.0
 # black>=21.0.0
 # flake8>=3.9.0
+
+# Dependencies for restored local modules and the crawler
+nest_asyncio
+ollama
+openpyxl

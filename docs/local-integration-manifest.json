@@ -1,0 +1,335 @@
+{
+  "baseline_commit": "4c6118ea4d7eb3b94edf217ac174063377975544",
+  "added_from_local": [
+    {
+      "source": "financial_research_report-main/README.md",
+      "target": "README.zh-CN.md",
+      "handling": "copied without content changes",
+      "source_sha256": "b069c57fc2ae9dbcbe9d0430a92a5fc4e7c2fc8a165d6cd359192f989e434328",
+      "target_sha256": "b069c57fc2ae9dbcbe9d0430a92a5fc4e7c2fc8a165d6cd359192f989e434328"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/.env.example",
+      "target": "data_analysis_agent/.env.example",
+      "handling": "copied without content changes",
+      "source_sha256": "2df5b8d01dd5ff2f2307e4d9b5058fa189328ca13185cf6003ef5c4180973da7",
+      "target_sha256": "2df5b8d01dd5ff2f2307e4d9b5058fa189328ca13185cf6003ef5c4180973da7"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/.gitignore",
+      "target": "data_analysis_agent/.gitignore",
+      "handling": "copied without content changes",
+      "source_sha256": "2b068b68cdf8f116fe5afa257e1e25f207c875b2483cb0b62f86f69a53843af4",
+      "target_sha256": "2b068b68cdf8f116fe5afa257e1e25f207c875b2483cb0b62f86f69a53843af4"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/data_analysis_agent.py",
+      "target": "data_analysis_agent/data_analysis_agent.py",
+      "handling": "copied without content changes",
+      "source_sha256": "d26a5891a882b38e618e965af5c927054aae74bfc17e5b5c80070cc5baf300e1",
+      "target_sha256": "d26a5891a882b38e618e965af5c927054aae74bfc17e5b5c80070cc5baf300e1"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/prompts.py",
+      "target": "data_analysis_agent/prompts.py",
+      "handling": "copied without content changes",
+      "source_sha256": "83f9154a5d1117e1c9506ed722f0fd95bcd3283a44726c8d32befc872e5e5652",
+      "target_sha256": "83f9154a5d1117e1c9506ed722f0fd95bcd3283a44726c8d32befc872e5e5652"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/README.md",
+      "target": "data_analysis_agent/README.md",
+      "handling": "copied without content changes",
+      "source_sha256": "5494a11ba7da041f55799bcc7f8d26de64f9518f870fa6ac65b8051a85e4469a",
+      "target_sha256": "5494a11ba7da041f55799bcc7f8d26de64f9518f870fa6ac65b8051a85e4469a"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/__init__.py",
+      "target": "data_analysis_agent/__init__.py",
+      "handling": "copied without content changes",
+      "source_sha256": "f3041da6d086c1a886a4e5652e48ee0709e133c0a6887694cfb0ac9b8075faed",
+      "target_sha256": "f3041da6d086c1a886a4e5652e48ee0709e133c0a6887694cfb0ac9b8075faed"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/config/llm_config.py",
+      "target": "data_analysis_agent/config/llm_config.py",
+      "handling": "copied without content changes",
+      "source_sha256": "e08845cbc5de6e6cbfec261fda2b547fd4975f370fbdf9512efe13f228dad90f",
+      "target_sha256": "e08845cbc5de6e6cbfec261fda2b547fd4975f370fbdf9512efe13f228dad90f"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/config/__init__.py",
+      "target": "data_analysis_agent/config/__init__.py",
+      "handling": "copied without content changes",
+      "source_sha256": "40047f1f606407d4300eacc5f2a981a899bc199814990ffcc6b022ddb777def2",
+      "target_sha256": "40047f1f606407d4300eacc5f2a981a899bc199814990ffcc6b022ddb777def2"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/utils/code_executor.py",
+      "target": "data_analysis_agent/utils/code_executor.py",
+      "handling": "copied without content changes",
+      "source_sha256": "cc043157ea4f02217373bbc0dfd45cd0169ac629a0efb5d9cd6e971ddc93b05a",
+      "target_sha256": "cc043157ea4f02217373bbc0dfd45cd0169ac629a0efb5d9cd6e971ddc93b05a"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/utils/create_session_dir.py",
+      "target": "data_analysis_agent/utils/create_session_dir.py",
+      "handling": "copied without content changes",
+      "source_sha256": "39659489506096c27555ffbcc5a8414839f940304e88b47b00ab4e9030271ea2",
+      "target_sha256": "39659489506096c27555ffbcc5a8414839f940304e88b47b00ab4e9030271ea2"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/utils/extract_code.py",
+      "target": "data_analysis_agent/utils/extract_code.py",
+      "handling": "copied without content changes",
+      "source_sha256": "75b78229fbd6c277e72045a51da7143ca4453401e6beebe8c15d6e83feee5b99",
+      "target_sha256": "75b78229fbd6c277e72045a51da7143ca4453401e6beebe8c15d6e83feee5b99"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/utils/fallback_openai_client.py",
+      "target": "data_analysis_agent/utils/fallback_openai_client.py",
+      "handling": "copied without content changes",
+      "source_sha256": "7cced37a7b28d0a1b30cf62c048de649a79f1c56bee0c0c227a07d7a2437513b",
+      "target_sha256": "7cced37a7b28d0a1b30cf62c048de649a79f1c56bee0c0c227a07d7a2437513b"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/utils/format_execution_result.py",
+      "target": "data_analysis_agent/utils/format_execution_result.py",
+      "handling": "copied without content changes",
+      "source_sha256": "1202acce8b83ff7eedf4ff72c41b9c843d08feedc142efe5edb9ac59d3fb9d13",
+      "target_sha256": "1202acce8b83ff7eedf4ff72c41b9c843d08feedc142efe5edb9ac59d3fb9d13"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/utils/llm_helper.py",
+      "target": "data_analysis_agent/utils/llm_helper.py",
+      "handling": "copied without content changes",
+      "source_sha256": "034bf077b1cb12c6ca293a9397fa4fb386bc787269a5164697c5d53f818cba59",
+      "target_sha256": "034bf077b1cb12c6ca293a9397fa4fb386bc787269a5164697c5d53f818cba59"
+    },
+    {
+      "source": "financial_research_report-main/data_analysis_agent/utils/__init__.py",
+      "target": "data_analysis_agent/utils/__init__.py",
+      "handling": "copied without content changes",
+      "source_sha256": "9772962e601f3dadd29192858acae171da482ae910b54af1226ee3a59f24defc",
+      "target_sha256": "9772962e601f3dadd29192858acae171da482ae910b54af1226ee3a59f24defc"
+    },
+    {
+      "source": "financial_research_report-main/industry_info/all_search_results.json",
+      "target": "industry_info/all_search_results.json",
+      "handling": "copied without content changes",
+      "source_sha256": "5dca8a7131b2021cbbb4c411ff831a45a12a8a6a53ff219055982c73942ff415",
+      "target_sha256": "5dca8a7131b2021cbbb4c411ff831a45a12a8a6a53ff219055982c73942ff415"
+    },
+    {
+      "source": "financial_research_report-main/pocketflow/__init__.py",
+      "target": "pocketflow/__init__.py",
+      "handling": "copied without content changes",
+      "source_sha256": "0af62e45f789b2e8f072234a0a7f4426bc22f9d26c08ccf9a008ffdaeb5fbd03",
+      "target_sha256": "0af62e45f789b2e8f072234a0a7f4426bc22f9d26c08ccf9a008ffdaeb5fbd03"
+    },
+    {
+      "source": "financial_research_report-main/utils/get_base_info.py",
+      "target": "utils/get_base_info.py",
+      "handling": "copied without content changes",
+      "source_sha256": "6c3d815292a9f31b263bdb42d63444b3d02b574bf34d0cfe04ca06cc704544fe",
+      "target_sha256": "6c3d815292a9f31b263bdb42d63444b3d02b574bf34d0cfe04ca06cc704544fe"
+    },
+    {
+      "source": "financial_research_report-main/utils/get_company_info.py",
+      "target": "utils/get_company_info.py",
+      "handling": "copied without content changes",
+      "source_sha256": "640379b0bc2b17fd7fd600bf06262443f7d8e974fba150811f9722e6e7c2ac42",
+      "target_sha256": "640379b0bc2b17fd7fd600bf06262443f7d8e974fba150811f9722e6e7c2ac42"
+    },
+    {
+      "source": "financial_research_report-main/utils/get_financial_statements.py",
+      "target": "utils/get_financial_statements.py",
+      "handling": "copied without content changes",
+      "source_sha256": "d3253cfff0519063dd88883c8cdc30de193cf276383b9536f5d828060f7989a1",
+      "target_sha256": "d3253cfff0519063dd88883c8cdc30de193cf276383b9536f5d828060f7989a1"
+    },
+    {
+      "source": "financial_research_report-main/utils/get_shareholder_info.py",
+      "target": "utils/get_shareholder_info.py",
+      "handling": "copied without content changes",
+      "source_sha256": "89b65faad7b8685b066d4c3a046d94b61f2b5b5b370e6bff184222ef58233385",
+      "target_sha256": "89b65faad7b8685b066d4c3a046d94b61f2b5b5b370e6bff184222ef58233385"
+    },
+    {
+      "source": "financial_research_report-main/utils/get_stock_intro.py",
+      "target": "utils/get_stock_intro.py",
+      "handling": "copied without content changes",
+      "source_sha256": "1c2fa01666d12ff86b9081429d002d20f5266c41aee9de986ea221295bb408a3",
+      "target_sha256": "1c2fa01666d12ff86b9081429d002d20f5266c41aee9de986ea221295bb408a3"
+    },
+    {
+      "source": "financial_research_report-main/utils/identify_competitors.py",
+      "target": "utils/identify_competitors.py",
+      "handling": "copied without content changes",
+      "source_sha256": "93b2fb39e94441a979d11d9af0dc5a58752f9494d4b8414ed64b299c6cbc3951",
+      "target_sha256": "93b2fb39e94441a979d11d9af0dc5a58752f9494d4b8414ed64b299c6cbc3951"
+    },
+    {
+      "source": "financial_research_report-main/utils/search_info.py",
+      "target": "utils/search_info.py",
+      "handling": "copied without content changes",
+      "source_sha256": "635e2d2e4b6870c1ac7c5c43fa7842881e5ca7d0406c5e7c7f5d2b9e61acb4e0",
+      "target_sha256": "635e2d2e4b6870c1ac7c5c43fa7842881e5ca7d0406c5e7c7f5d2b9e61acb4e0"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/.gitattributes",
+      "target": ".gitattributes",
+      "handling": "copied without content changes",
+      "source_sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "target_sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/Backend/main.py",
+      "target": "Backend/main.py",
+      "handling": "copied without content changes",
+      "source_sha256": "4b43533a5e76d272b5fe53cce0ea4f79ffeb23679936d36fef18af91f88ca26c",
+      "target_sha256": "4b43533a5e76d272b5fe53cce0ea4f79ffeb23679936d36fef18af91f88ca26c"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/Backend/__init__.py",
+      "target": "Backend/__init__.py",
+      "handling": "copied without content changes",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/Backend/config/config.py",
+      "target": "Backend/config/config.py",
+      "handling": "credential replaced with environment variable",
+      "source_sha256": "6f6f702eca94de667bedce2fe77fcd573dd20556099bbe047d5fd818dfcc4883",
+      "target_sha256": "f59163b87c5b5293766cbabd2e3de6085b52834b826a523dbb21edaaebea91b0"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/Backend/config/prompt_companyorshare.py",
+      "target": "Backend/config/prompt_companyorshare.py",
+      "handling": "copied without content changes",
+      "source_sha256": "94a7821bfda0d3b9c34fa4fae2d0cc9267cfd0789b30fae2b6ef4aa1ff612ecd",
+      "target_sha256": "94a7821bfda0d3b9c34fa4fae2d0cc9267cfd0789b30fae2b6ef4aa1ff612ecd"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/Backend/config/prompt_industry.py",
+      "target": "Backend/config/prompt_industry.py",
+      "handling": "copied without content changes",
+      "source_sha256": "8ce200d22388e891f5fed43e118e516d3ffa44360ccf092002b33df10ba3f6f4",
+      "target_sha256": "8ce200d22388e891f5fed43e118e516d3ffa44360ccf092002b33df10ba3f6f4"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/Backend/config/prompt_macro.py",
+      "target": "Backend/config/prompt_macro.py",
+      "handling": "copied without content changes",
+      "source_sha256": "d28515754898579271fb8587f54cce632800160981c29c97e859ce34665176bf",
+      "target_sha256": "d28515754898579271fb8587f54cce632800160981c29c97e859ce34665176bf"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/Backend/config/__init__.py",
+      "target": "Backend/config/__init__.py",
+      "handling": "copied without content changes",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/Backend/utils/drawGraph.py",
+      "target": "Backend/utils/drawGraph.py",
+      "handling": "copied without content changes",
+      "source_sha256": "f180ba014b9fa728e035177fe8562cf24cdfc34cd980f01ffe5e8de0ec742b13",
+      "target_sha256": "f180ba014b9fa728e035177fe8562cf24cdfc34cd980f01ffe5e8de0ec742b13"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/Backend/utils/LLMRequest.py",
+      "target": "Backend/utils/LLMRequest.py",
+      "handling": "copied without content changes",
+      "source_sha256": "818619eb21925e5cb6e1b87225c731cf98de68454f1774fd8ac917ed7f9a3aa3",
+      "target_sha256": "818619eb21925e5cb6e1b87225c731cf98de68454f1774fd8ac917ed7f9a3aa3"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/Backend/utils/RAG.py",
+      "target": "Backend/utils/RAG.py",
+      "handling": "copied without content changes",
+      "source_sha256": "85aaf3bd6b6dca1b088cd031d2af319f80b162e5e2ce108b2295e567cdaf4eff",
+      "target_sha256": "85aaf3bd6b6dca1b088cd031d2af319f80b162e5e2ce108b2295e567cdaf4eff"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/Backend/utils/__init__.py",
+      "target": "Backend/utils/__init__.py",
+      "handling": "copied without content changes",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/data/scrape",
+      "target": "data/scrape",
+      "handling": "copied without content changes",
+      "source_sha256": "0535599c8c52818606d1a0abd1d8fb7cfb0ca35f08379b9b94a843127098a5b1",
+      "target_sha256": "0535599c8c52818606d1a0abd1d8fb7cfb0ca35f08379b9b94a843127098a5b1"
+    },
+    {
+      "source": "智能体赋能的金融多模态报告自动化生成/Agent-Empowered Automated Generation of Multimodal Financial Reports Project/data/__init__.py",
+      "target": "data/__init__.py",
+      "handling": "copied without content changes",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "config.py",
+      "target": "config.py",
+      "handling": "credential replaced with environment variable",
+      "source_sha256": "bbbade0f003652ce463b4716dbe6272c7f049903fb4cf6551b1403eeb7608f1c",
+      "target_sha256": "825eb88a9f8d2fe1a07c00d50faf915182399a3971ec02a0fc8b4fdb4833e2b7"
+    },
+    {
+      "source": "content_companyorshare.py",
+      "target": "content_companyorshare.py",
+      "handling": "copied without content changes",
+      "source_sha256": "05faaaa9fbe1c0ece43b8f4f8a55ae2a0025d747858a86c2fd36f05ef219e904",
+      "target_sha256": "05faaaa9fbe1c0ece43b8f4f8a55ae2a0025d747858a86c2fd36f05ef219e904"
+    },
+    {
+      "source": "content_industry.py",
+      "target": "content_industry.py",
+      "handling": "copied without content changes",
+      "source_sha256": "81c468de225c3597e4a73a8f8e1a25cd9000379c631634ba414b6a6c6c631a13",
+      "target_sha256": "81c468de225c3597e4a73a8f8e1a25cd9000379c631634ba414b6a6c6c631a13"
+    },
+    {
+      "source": "content_macro.py",
+      "target": "content_macro.py",
+      "handling": "copied without content changes",
+      "source_sha256": "25686d4e5d588076fb78846320ef254161099bcfabf3acd0f740d706825bd145",
+      "target_sha256": "25686d4e5d588076fb78846320ef254161099bcfabf3acd0f740d706825bd145"
+    },
+    {
+      "source": "llm.py",
+      "target": "llm.py",
+      "handling": "copied without content changes",
+      "source_sha256": "899344de5b951e61ea0bb726266e75c7633835d052b1caf5ab695a59d7ad5d7b",
+      "target_sha256": "899344de5b951e61ea0bb726266e75c7633835d052b1caf5ab695a59d7ad5d7b"
+    },
+    {
+      "source": "prompts.py",
+      "target": "prompts.py",
+      "handling": "copied without content changes",
+      "source_sha256": "351e0dc23b108d2115399c4c60e47c476aba0c7774af73e1799f8909b90d29ff",
+      "target_sha256": "351e0dc23b108d2115399c4c60e47c476aba0c7774af73e1799f8909b90d29ff"
+    },
+    {
+      "source": "Scrape.ipynb",
+      "target": "Scrape.ipynb",
+      "handling": "copied without content changes",
+      "source_sha256": "2225e4c9fb396c5e3dcfb6ef3e98b5ac7725ad5378965d7ce2a02fe82b73549d",
+      "target_sha256": "2225e4c9fb396c5e3dcfb6ef3e98b5ac7725ad5378965d7ce2a02fe82b73549d"
+    },
+    {
+      "source": "公司研报 需要.docx",
+      "target": "公司研报 需要.docx",
+      "handling": "copied without content changes",
+      "source_sha256": "1646e6d476d78181e68db6876faf6ca3df51d8c11defd2984b652f80e17b7383",
+      "target_sha256": "1646e6d476d78181e68db6876faf6ca3df51d8c11defd2984b652f80e17b7383"
+    }
+  ],
+  "preserved_cloud_differences": []
+}

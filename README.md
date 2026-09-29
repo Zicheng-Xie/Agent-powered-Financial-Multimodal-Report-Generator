@@ -196,3 +196,16 @@ python research_report_generator.py --ticker 000001
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Local project integration
+
+The missing `data_analysis_agent/`, `utils/`, `pocketflow/`, and `Backend/` modules have been restored from the local project. This repository also includes the original crawler (`data/scrape` and `Scrape.ipynb`), additional report content templates, and the Word reference document.
+
+- [Chinese project documentation](README.zh-CN.md)
+- [Integration inventory and validation](docs/LOCAL_INTEGRATION.md)
+
+Copy `.env.example` to `.env`, then fill in `OPENAI_API_KEY` for the research report generators and `DEEPSEEK_API_KEY` for the backend and `llm.py`. `llm.py` also uses a local Ollama service; the backend embeddings use Ollama at `http://localhost:11434` with `bge-m3:latest`.
+
+Install the complete dependencies with `pip install -r requirements.txt`. Run commands from the repository root; the original backend entry point can be loaded as `python -m Backend.main` after configuring the API key.
+
+Generated data and output directories shown in the architecture overview are created by the workflows and are not bundled as complete datasets. File integration and static validation do not establish that live API calls or report generation succeed.
