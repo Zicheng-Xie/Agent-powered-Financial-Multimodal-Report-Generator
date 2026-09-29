@@ -1,0 +1,490 @@
+{
+  "baseline_commit": "78dcb25f519825f7f87751e670d8b47480976940",
+  "files": [
+    {
+      "before": ".env.example",
+      "after": ".env.example",
+      "original_sha256": "9649b0fbecb8d0d7583dec7c8a1db540f1027d5a58d67cf23638a0e842976cad",
+      "current_sha256": "9649b0fbecb8d0d7583dec7c8a1db540f1027d5a58d67cf23638a0e842976cad",
+      "handling": "content preserved"
+    },
+    {
+      "before": ".gitattributes",
+      "after": ".gitattributes",
+      "original_sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "current_sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "handling": "content preserved"
+    },
+    {
+      "before": ".gitignore",
+      "after": ".gitignore",
+      "original_sha256": "0cc3a15e9a0a53ad52e67067851c1cd593cf908dfee6fa11dc14c5e6a85bfb44",
+      "current_sha256": "bb07e1f80e67bc6e1a0892f9bdf59dc886c6f82c27ec178e5213811fc13da56f",
+      "handling": "documentation updated"
+    },
+    {
+      "before": "Backend/__init__.py",
+      "after": "financial_reports/backend/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "handling": "content preserved"
+    },
+    {
+      "before": "Backend/config/__init__.py",
+      "after": "financial_reports/backend/config/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "handling": "content preserved"
+    },
+    {
+      "before": "Backend/config/config.py",
+      "after": "financial_reports/backend/config/config.py",
+      "original_sha256": "f59163b87c5b5293766cbabd2e3de6085b52834b826a523dbb21edaaebea91b0",
+      "current_sha256": "f59163b87c5b5293766cbabd2e3de6085b52834b826a523dbb21edaaebea91b0",
+      "handling": "content preserved"
+    },
+    {
+      "before": "Backend/config/prompt_companyorshare.py",
+      "after": "financial_reports/backend/templates/prompt_companyorshare.py",
+      "original_sha256": "94a7821bfda0d3b9c34fa4fae2d0cc9267cfd0789b30fae2b6ef4aa1ff612ecd",
+      "current_sha256": "94a7821bfda0d3b9c34fa4fae2d0cc9267cfd0789b30fae2b6ef4aa1ff612ecd",
+      "handling": "content preserved"
+    },
+    {
+      "before": "Backend/config/prompt_industry.py",
+      "after": "financial_reports/backend/templates/prompt_industry.py",
+      "original_sha256": "8ce200d22388e891f5fed43e118e516d3ffa44360ccf092002b33df10ba3f6f4",
+      "current_sha256": "8ce200d22388e891f5fed43e118e516d3ffa44360ccf092002b33df10ba3f6f4",
+      "handling": "content preserved"
+    },
+    {
+      "before": "Backend/config/prompt_macro.py",
+      "after": "financial_reports/backend/templates/prompt_macro.py",
+      "original_sha256": "d28515754898579271fb8587f54cce632800160981c29c97e859ce34665176bf",
+      "current_sha256": "d28515754898579271fb8587f54cce632800160981c29c97e859ce34665176bf",
+      "handling": "content preserved"
+    },
+    {
+      "before": "Backend/main.py",
+      "after": "financial_reports/backend/main.py",
+      "original_sha256": "4b43533a5e76d272b5fe53cce0ea4f79ffeb23679936d36fef18af91f88ca26c",
+      "current_sha256": "6f7a7a6c049d6d1c07aaff4c92da637d418126d035f7b24f6ac318adfc98c490",
+      "handling": "module references updated"
+    },
+    {
+      "before": "Backend/utils/LLMRequest.py",
+      "after": "financial_reports/backend/utils/LLMRequest.py",
+      "original_sha256": "818619eb21925e5cb6e1b87225c731cf98de68454f1774fd8ac917ed7f9a3aa3",
+      "current_sha256": "4eefb83d736a9277701c7c83e54f21231e5c1307b1cce9bb17e566289db124d9",
+      "handling": "module references updated"
+    },
+    {
+      "before": "Backend/utils/RAG.py",
+      "after": "financial_reports/backend/utils/RAG.py",
+      "original_sha256": "85aaf3bd6b6dca1b088cd031d2af319f80b162e5e2ce108b2295e567cdaf4eff",
+      "current_sha256": "08e7a6a5f2ffd3f14afec4e359d8d8571b93aea23b46e3d3611d0fe2e0ac67d3",
+      "handling": "module references updated"
+    },
+    {
+      "before": "Backend/utils/__init__.py",
+      "after": "financial_reports/backend/utils/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "handling": "content preserved"
+    },
+    {
+      "before": "Backend/utils/drawGraph.py",
+      "after": "financial_reports/backend/utils/drawGraph.py",
+      "original_sha256": "f180ba014b9fa728e035177fe8562cf24cdfc34cd980f01ffe5e8de0ec742b13",
+      "current_sha256": "f180ba014b9fa728e035177fe8562cf24cdfc34cd980f01ffe5e8de0ec742b13",
+      "handling": "content preserved"
+    },
+    {
+      "before": "LICENSE",
+      "after": "LICENSE",
+      "original_sha256": "bc55be0151a8c74cea76abd3c8b0849b21e5f66925002541106179d6e7509220",
+      "current_sha256": "bc55be0151a8c74cea76abd3c8b0849b21e5f66925002541106179d6e7509220",
+      "handling": "content preserved"
+    },
+    {
+      "before": "README.md",
+      "after": "README.md",
+      "original_sha256": "061b9cb5fafa5e7175964aff4ae9acfacd8d3a053ef6f375e237bae61af31938",
+      "current_sha256": "f991759cc8c5157cd8d2c9ff6c0b5c69be7abdd7b5edab63e80eeafee67c4815",
+      "handling": "documentation updated"
+    },
+    {
+      "before": "README.zh-CN.md",
+      "after": "README.zh-CN.md",
+      "original_sha256": "b069c57fc2ae9dbcbe9d0430a92a5fc4e7c2fc8a165d6cd359192f989e434328",
+      "current_sha256": "4356f2db0f847392749ba8b604366055345d70480fc28e86c58eef016520734a",
+      "handling": "documentation updated"
+    },
+    {
+      "before": "Scrape.ipynb",
+      "after": "notebooks/Scrape.ipynb",
+      "original_sha256": "2225e4c9fb396c5e3dcfb6ef3e98b5ac7725ad5378965d7ce2a02fe82b73549d",
+      "current_sha256": "2225e4c9fb396c5e3dcfb6ef3e98b5ac7725ad5378965d7ce2a02fe82b73549d",
+      "handling": "content preserved"
+    },
+    {
+      "before": "__init__.py",
+      "after": "financial_reports/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "handling": "content preserved"
+    },
+    {
+      "before": "config.py",
+      "after": "financial_reports/config/deepseek.py",
+      "original_sha256": "825eb88a9f8d2fe1a07c00d50faf915182399a3971ec02a0fc8b4fdb4833e2b7",
+      "current_sha256": "825eb88a9f8d2fe1a07c00d50faf915182399a3971ec02a0fc8b4fdb4833e2b7",
+      "handling": "content preserved"
+    },
+    {
+      "before": "content_companyorshare.py",
+      "after": "financial_reports/templates/content/content_companyorshare.py",
+      "original_sha256": "05faaaa9fbe1c0ece43b8f4f8a55ae2a0025d747858a86c2fd36f05ef219e904",
+      "current_sha256": "05faaaa9fbe1c0ece43b8f4f8a55ae2a0025d747858a86c2fd36f05ef219e904",
+      "handling": "content preserved"
+    },
+    {
+      "before": "content_industry.py",
+      "after": "financial_reports/templates/content/content_industry.py",
+      "original_sha256": "81c468de225c3597e4a73a8f8e1a25cd9000379c631634ba414b6a6c6c631a13",
+      "current_sha256": "81c468de225c3597e4a73a8f8e1a25cd9000379c631634ba414b6a6c6c631a13",
+      "handling": "content preserved"
+    },
+    {
+      "before": "content_macro.py",
+      "after": "financial_reports/templates/content/content_macro.py",
+      "original_sha256": "25686d4e5d588076fb78846320ef254161099bcfabf3acd0f740d706825bd145",
+      "current_sha256": "25686d4e5d588076fb78846320ef254161099bcfabf3acd0f740d706825bd145",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data/__init__.py",
+      "after": "scripts/crawlers/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data/scrape",
+      "after": "scripts/crawlers/scrape.py",
+      "original_sha256": "0535599c8c52818606d1a0abd1d8fb7cfb0ca35f08379b9b94a843127098a5b1",
+      "current_sha256": "0535599c8c52818606d1a0abd1d8fb7cfb0ca35f08379b9b94a843127098a5b1",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/.env.example",
+      "after": "financial_reports/agents/data_analysis_agent/.env.example",
+      "original_sha256": "2df5b8d01dd5ff2f2307e4d9b5058fa189328ca13185cf6003ef5c4180973da7",
+      "current_sha256": "2df5b8d01dd5ff2f2307e4d9b5058fa189328ca13185cf6003ef5c4180973da7",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/.gitignore",
+      "after": "financial_reports/agents/data_analysis_agent/.gitignore",
+      "original_sha256": "2b068b68cdf8f116fe5afa257e1e25f207c875b2483cb0b62f86f69a53843af4",
+      "current_sha256": "2b068b68cdf8f116fe5afa257e1e25f207c875b2483cb0b62f86f69a53843af4",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/README.md",
+      "after": "financial_reports/agents/data_analysis_agent/README.md",
+      "original_sha256": "5494a11ba7da041f55799bcc7f8d26de64f9518f870fa6ac65b8051a85e4469a",
+      "current_sha256": "0870ef9a685203e94aeae19c22ceb9dc55dd044ea1492909a51c96996fcdeb24",
+      "handling": "documentation updated"
+    },
+    {
+      "before": "data_analysis_agent/__init__.py",
+      "after": "financial_reports/agents/data_analysis_agent/__init__.py",
+      "original_sha256": "f3041da6d086c1a886a4e5652e48ee0709e133c0a6887694cfb0ac9b8075faed",
+      "current_sha256": "f3041da6d086c1a886a4e5652e48ee0709e133c0a6887694cfb0ac9b8075faed",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/config/__init__.py",
+      "after": "financial_reports/agents/data_analysis_agent/config/__init__.py",
+      "original_sha256": "40047f1f606407d4300eacc5f2a981a899bc199814990ffcc6b022ddb777def2",
+      "current_sha256": "40047f1f606407d4300eacc5f2a981a899bc199814990ffcc6b022ddb777def2",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/config/llm_config.py",
+      "after": "financial_reports/agents/data_analysis_agent/config/llm_config.py",
+      "original_sha256": "e08845cbc5de6e6cbfec261fda2b547fd4975f370fbdf9512efe13f228dad90f",
+      "current_sha256": "e08845cbc5de6e6cbfec261fda2b547fd4975f370fbdf9512efe13f228dad90f",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/data_analysis_agent.py",
+      "after": "financial_reports/agents/data_analysis_agent/data_analysis_agent.py",
+      "original_sha256": "d26a5891a882b38e618e965af5c927054aae74bfc17e5b5c80070cc5baf300e1",
+      "current_sha256": "d26a5891a882b38e618e965af5c927054aae74bfc17e5b5c80070cc5baf300e1",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/prompts.py",
+      "after": "financial_reports/agents/data_analysis_agent/prompts.py",
+      "original_sha256": "83f9154a5d1117e1c9506ed722f0fd95bcd3283a44726c8d32befc872e5e5652",
+      "current_sha256": "83f9154a5d1117e1c9506ed722f0fd95bcd3283a44726c8d32befc872e5e5652",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/utils/__init__.py",
+      "after": "financial_reports/agents/data_analysis_agent/utils/__init__.py",
+      "original_sha256": "9772962e601f3dadd29192858acae171da482ae910b54af1226ee3a59f24defc",
+      "current_sha256": "9772962e601f3dadd29192858acae171da482ae910b54af1226ee3a59f24defc",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/utils/code_executor.py",
+      "after": "financial_reports/agents/data_analysis_agent/utils/code_executor.py",
+      "original_sha256": "cc043157ea4f02217373bbc0dfd45cd0169ac629a0efb5d9cd6e971ddc93b05a",
+      "current_sha256": "cc043157ea4f02217373bbc0dfd45cd0169ac629a0efb5d9cd6e971ddc93b05a",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/utils/create_session_dir.py",
+      "after": "financial_reports/agents/data_analysis_agent/utils/create_session_dir.py",
+      "original_sha256": "39659489506096c27555ffbcc5a8414839f940304e88b47b00ab4e9030271ea2",
+      "current_sha256": "39659489506096c27555ffbcc5a8414839f940304e88b47b00ab4e9030271ea2",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/utils/extract_code.py",
+      "after": "financial_reports/agents/data_analysis_agent/utils/extract_code.py",
+      "original_sha256": "75b78229fbd6c277e72045a51da7143ca4453401e6beebe8c15d6e83feee5b99",
+      "current_sha256": "75b78229fbd6c277e72045a51da7143ca4453401e6beebe8c15d6e83feee5b99",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/utils/fallback_openai_client.py",
+      "after": "financial_reports/agents/data_analysis_agent/utils/fallback_openai_client.py",
+      "original_sha256": "7cced37a7b28d0a1b30cf62c048de649a79f1c56bee0c0c227a07d7a2437513b",
+      "current_sha256": "7cced37a7b28d0a1b30cf62c048de649a79f1c56bee0c0c227a07d7a2437513b",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/utils/format_execution_result.py",
+      "after": "financial_reports/agents/data_analysis_agent/utils/format_execution_result.py",
+      "original_sha256": "1202acce8b83ff7eedf4ff72c41b9c843d08feedc142efe5edb9ac59d3fb9d13",
+      "current_sha256": "1202acce8b83ff7eedf4ff72c41b9c843d08feedc142efe5edb9ac59d3fb9d13",
+      "handling": "content preserved"
+    },
+    {
+      "before": "data_analysis_agent/utils/llm_helper.py",
+      "after": "financial_reports/agents/data_analysis_agent/utils/llm_helper.py",
+      "original_sha256": "034bf077b1cb12c6ca293a9397fa4fb386bc787269a5164697c5d53f818cba59",
+      "current_sha256": "034bf077b1cb12c6ca293a9397fa4fb386bc787269a5164697c5d53f818cba59",
+      "handling": "content preserved"
+    },
+    {
+      "before": "docs/LOCAL_INTEGRATION.md",
+      "after": "docs/history/LOCAL_INTEGRATION.md",
+      "original_sha256": "7786c7d2cb5317babe5789699910ba7f378456e8b122ee31c32e8fa4b4728e62",
+      "current_sha256": "0e7691637dd07571efbec9f4d1d12fd272d985cd907601bab4a992709929b34b",
+      "handling": "documentation updated"
+    },
+    {
+      "before": "docs/local-integration-manifest.json",
+      "after": "docs/history/local-integration-manifest.json",
+      "original_sha256": "64ff7d36198abb14a4714595e8236ffda85adbca8ac6964553dc81c56f1efae2",
+      "current_sha256": "64ff7d36198abb14a4714595e8236ffda85adbca8ac6964553dc81c56f1efae2",
+      "handling": "content preserved"
+    },
+    {
+      "before": "in_depth_research_report_generator.py",
+      "after": "financial_reports/generators/in_depth_research_report_generator.py",
+      "original_sha256": "2e29dcd9999051c0b36ab1bda92c7891e817da94f4bdd617bc2469ee1cf3e669",
+      "current_sha256": "5be36df681fbd8e410516734e56db142aa5bf617432de94361e13cb16031adb6",
+      "handling": "module references updated"
+    },
+    {
+      "before": "industry_info/all_search_results.json",
+      "after": "data/samples/industry/all_search_results.json",
+      "original_sha256": "5dca8a7131b2021cbbb4c411ff831a45a12a8a6a53ff219055982c73942ff415",
+      "current_sha256": "5dca8a7131b2021cbbb4c411ff831a45a12a8a6a53ff219055982c73942ff415",
+      "handling": "content preserved"
+    },
+    {
+      "before": "industry_workflow.py",
+      "after": "financial_reports/workflows/industry_workflow.py",
+      "original_sha256": "89c3c97cb9e15f4f2dbfb538f924734a3a8111b57bd4eff14267360524a5456f",
+      "current_sha256": "21aa9a11a47eebbd0c7e873ab1009d20716317fd275f3ebfa919948c18ed572a",
+      "handling": "module references updated"
+    },
+    {
+      "before": "integrated_research_report_generator.py",
+      "after": "financial_reports/generators/integrated_research_report_generator.py",
+      "original_sha256": "5214fdaa7180c0daa13a1e35697b3bf1608171c1179be48c8f65491b4dd8d620",
+      "current_sha256": "09746a81b83ae7e975588018e43c1a8736e43b45f774bc7a6a1807c48551af57",
+      "handling": "module references updated"
+    },
+    {
+      "before": "llm.py",
+      "after": "financial_reports/services/llm.py",
+      "original_sha256": "899344de5b951e61ea0bb726266e75c7633835d052b1caf5ab695a59d7ad5d7b",
+      "current_sha256": "93a5729d36ab2d2d595df670940621a9f0afe22faa179e96261b14b487b29350",
+      "handling": "module references updated"
+    },
+    {
+      "before": "macro_workflow.py",
+      "after": "financial_reports/workflows/macro_workflow.py",
+      "original_sha256": "292fbb4256439cb0a26ad4189733b9656f1057a33b6c4313c393ab4086d89478",
+      "current_sha256": "eefda39045590e6e4644d717f3565e0711209ef7e59f289db9e6e6a9f45284cc",
+      "handling": "module references updated"
+    },
+    {
+      "before": "main.py",
+      "after": "examples/backend_imports.py",
+      "original_sha256": "4b43533a5e76d272b5fe53cce0ea4f79ffeb23679936d36fef18af91f88ca26c",
+      "current_sha256": "6f7a7a6c049d6d1c07aaff4c92da637d418126d035f7b24f6ac318adfc98c490",
+      "handling": "module references updated"
+    },
+    {
+      "before": "pocketflow/__init__.py",
+      "after": "financial_reports/vendor/pocketflow/__init__.py",
+      "original_sha256": "0af62e45f789b2e8f072234a0a7f4426bc22f9d26c08ccf9a008ffdaeb5fbd03",
+      "current_sha256": "0af62e45f789b2e8f072234a0a7f4426bc22f9d26c08ccf9a008ffdaeb5fbd03",
+      "handling": "content preserved"
+    },
+    {
+      "before": "prompt_companyorshare.py",
+      "after": "financial_reports/templates/structure/prompt_companyorshare.py",
+      "original_sha256": "94a7821bfda0d3b9c34fa4fae2d0cc9267cfd0789b30fae2b6ef4aa1ff612ecd",
+      "current_sha256": "94a7821bfda0d3b9c34fa4fae2d0cc9267cfd0789b30fae2b6ef4aa1ff612ecd",
+      "handling": "content preserved"
+    },
+    {
+      "before": "prompt_industry.py",
+      "after": "financial_reports/templates/structure/prompt_industry.py",
+      "original_sha256": "8ce200d22388e891f5fed43e118e516d3ffa44360ccf092002b33df10ba3f6f4",
+      "current_sha256": "8ce200d22388e891f5fed43e118e516d3ffa44360ccf092002b33df10ba3f6f4",
+      "handling": "content preserved"
+    },
+    {
+      "before": "prompt_macro.py",
+      "after": "financial_reports/templates/structure/prompt_macro.py",
+      "original_sha256": "d28515754898579271fb8587f54cce632800160981c29c97e859ce34665176bf",
+      "current_sha256": "d28515754898579271fb8587f54cce632800160981c29c97e859ce34665176bf",
+      "handling": "content preserved"
+    },
+    {
+      "before": "prompts.py",
+      "after": "financial_reports/templates/analysis/prompts.py",
+      "original_sha256": "351e0dc23b108d2115399c4c60e47c476aba0c7774af73e1799f8909b90d29ff",
+      "current_sha256": "351e0dc23b108d2115399c4c60e47c476aba0c7774af73e1799f8909b90d29ff",
+      "handling": "content preserved"
+    },
+    {
+      "before": "requirements.txt",
+      "after": "requirements.txt",
+      "original_sha256": "c43d6dafe09f7beb21cd5d34c6dc7d1eb71d2d6ade3b8992ebef6bc3331bac3b",
+      "current_sha256": "c43d6dafe09f7beb21cd5d34c6dc7d1eb71d2d6ade3b8992ebef6bc3331bac3b",
+      "handling": "content preserved"
+    },
+    {
+      "before": "research_report_generator.py",
+      "after": "financial_reports/generators/research_report_generator.py",
+      "original_sha256": "047c7933682a98f30c11186849e311de4c9641e04512f315997dd6c9405ef4f1",
+      "current_sha256": "a42f736c9f6f48809e1aed81483c5b55c96defa5be4be722200fb42de9c7f9ef",
+      "handling": "module references updated"
+    },
+    {
+      "before": "utils/get_base_info.py",
+      "after": "financial_reports/collectors/get_base_info.py",
+      "original_sha256": "6c3d815292a9f31b263bdb42d63444b3d02b574bf34d0cfe04ca06cc704544fe",
+      "current_sha256": "6c3d815292a9f31b263bdb42d63444b3d02b574bf34d0cfe04ca06cc704544fe",
+      "handling": "content preserved"
+    },
+    {
+      "before": "utils/get_company_info.py",
+      "after": "financial_reports/collectors/get_company_info.py",
+      "original_sha256": "640379b0bc2b17fd7fd600bf06262443f7d8e974fba150811f9722e6e7c2ac42",
+      "current_sha256": "640379b0bc2b17fd7fd600bf06262443f7d8e974fba150811f9722e6e7c2ac42",
+      "handling": "content preserved"
+    },
+    {
+      "before": "utils/get_financial_statements.py",
+      "after": "financial_reports/collectors/get_financial_statements.py",
+      "original_sha256": "d3253cfff0519063dd88883c8cdc30de193cf276383b9536f5d828060f7989a1",
+      "current_sha256": "d3253cfff0519063dd88883c8cdc30de193cf276383b9536f5d828060f7989a1",
+      "handling": "content preserved"
+    },
+    {
+      "before": "utils/get_shareholder_info.py",
+      "after": "financial_reports/collectors/get_shareholder_info.py",
+      "original_sha256": "89b65faad7b8685b066d4c3a046d94b61f2b5b5b370e6bff184222ef58233385",
+      "current_sha256": "89b65faad7b8685b066d4c3a046d94b61f2b5b5b370e6bff184222ef58233385",
+      "handling": "content preserved"
+    },
+    {
+      "before": "utils/get_stock_intro.py",
+      "after": "financial_reports/collectors/get_stock_intro.py",
+      "original_sha256": "1c2fa01666d12ff86b9081429d002d20f5266c41aee9de986ea221295bb408a3",
+      "current_sha256": "1c2fa01666d12ff86b9081429d002d20f5266c41aee9de986ea221295bb408a3",
+      "handling": "content preserved"
+    },
+    {
+      "before": "utils/identify_competitors.py",
+      "after": "financial_reports/collectors/identify_competitors.py",
+      "original_sha256": "93b2fb39e94441a979d11d9af0dc5a58752f9494d4b8414ed64b299c6cbc3951",
+      "current_sha256": "93b2fb39e94441a979d11d9af0dc5a58752f9494d4b8414ed64b299c6cbc3951",
+      "handling": "content preserved"
+    },
+    {
+      "before": "utils/search_info.py",
+      "after": "financial_reports/collectors/search_info.py",
+      "original_sha256": "635e2d2e4b6870c1ac7c5c43fa7842881e5ca7d0406c5e7c7f5d2b9e61acb4e0",
+      "current_sha256": "635e2d2e4b6870c1ac7c5c43fa7842881e5ca7d0406c5e7c7f5d2b9e61acb4e0",
+      "handling": "content preserved"
+    },
+    {
+      "before": "公司研报 需要.docx",
+      "after": "docs/references/公司研报 需要.docx",
+      "original_sha256": "1646e6d476d78181e68db6876faf6ca3df51d8c11defd2984b652f80e17b7383",
+      "current_sha256": "1646e6d476d78181e68db6876faf6ca3df51d8c11defd2984b652f80e17b7383",
+      "handling": "content preserved"
+    }
+  ],
+  "code_imports_updated": [
+    "financial_reports/backend/main.py",
+    "financial_reports/backend/utils/LLMRequest.py",
+    "financial_reports/backend/utils/RAG.py",
+    "financial_reports/generators/in_depth_research_report_generator.py",
+    "financial_reports/workflows/industry_workflow.py",
+    "financial_reports/generators/integrated_research_report_generator.py",
+    "financial_reports/services/llm.py",
+    "financial_reports/workflows/macro_workflow.py",
+    "examples/backend_imports.py",
+    "financial_reports/generators/research_report_generator.py"
+  ],
+  "new_package_markers": [
+    "financial_reports/agents/__init__.py",
+    "financial_reports/generators/__init__.py",
+    "financial_reports/workflows/__init__.py",
+    "financial_reports/collectors/__init__.py",
+    "financial_reports/config/__init__.py",
+    "financial_reports/services/__init__.py",
+    "financial_reports/templates/__init__.py",
+    "financial_reports/templates/structure/__init__.py",
+    "financial_reports/templates/content/__init__.py",
+    "financial_reports/templates/analysis/__init__.py",
+    "financial_reports/vendor/__init__.py",
+    "financial_reports/backend/templates/__init__.py",
+    "examples/__init__.py",
+    "scripts/__init__.py"
+  ],
+  "verification": {
+    "original_files_accounted_for": 64,
+    "python_ast_compared": 49,
+    "unchanged_resources_compared": 10,
+    "readme_links_checked": 18,
+    "directory_tree_entries_checked": 93,
+    "mermaid_scope": "static structure and node-reference checks; not browser rendering",
+    "live_external_services_tested": false
+  }
+}

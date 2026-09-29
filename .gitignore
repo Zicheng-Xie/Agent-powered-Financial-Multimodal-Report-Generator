@@ -213,3 +213,9 @@ cache/
 *.db-journal
 *.sqlite
 *.sqlite3
+
+# Runtime search data; committed examples live in data/samples/
+/industry_info/
+
+# Keep reference documents in their dedicated folder
+!docs/references/*.docx
